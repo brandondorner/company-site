@@ -31,5 +31,57 @@ body{
             display: flex;
             justify-content: space-around;
         }
+        .info{
+            display: flex;
+            border: black solid 1px;
+            align-items: center;
+            .info-img{
+                img{
+                    width: 80%;
+                }
+            }
+            .text{
+                text-align: left;
+                padding: 5%;
+            }
+        }
+        .action-call{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 60vh;
+            button{
+                width: 50%;
+                align-self: center;
+            }
+        }
+        .footer{
+            display: flex;
+            .left{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 50%;
+                h4{
+                    font-size: 2.5vw;
+                }
+                p{
+                    text-align: left;
+                    width: 50%;
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 20%;
+                text-align: left;
+
+                p{
+                    width: 70%;
+                    text-align: left;
+                }
+            }
+        }
     }
 }
