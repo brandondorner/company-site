@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  margin: 0;
 }
 
 body .container {
@@ -79,6 +80,10 @@ body .container .info .text {
   padding: 5%;
 }
 
+body .container .users, body .container .grow {
+  background-color: #F7FCFF;
+}
+
 body .container .action-call {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,6 +109,9 @@ body .container .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #01262F;
+  color: #FEFEFE;
+  width: 100%;
 }
 
 body .container .footer .left {
@@ -118,6 +126,7 @@ body .container .footer .left {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 50%;
+  padding-left: 5%;
 }
 
 body .container .footer .left h4 {
