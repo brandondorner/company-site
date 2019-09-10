@@ -1,8 +1,13 @@
 body{
     text-align: center;
-    margin: 10px 0;;
+    margin: 10px 0 0 0;
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+
     .container{
+        img{
+            width: 100vw;
+        }
         button{
             background-color: #FB54C2;
             color: #F7FCFF;
@@ -13,6 +18,7 @@ body{
             font-size: 80%;
             padding: 0 30px;
             box-shadow: 0 .4rem 1rem -.3rem rgb(202, 177, 177);
+            font-family: 'Open Sans', sans-serif;
             cursor: pointer;
         }
         button:hover{
@@ -29,7 +35,8 @@ body{
                 justify-content: space-between;
                 align-items: center;
                 img{
-                    height: 3vh;
+                    height: 3.25vh;
+                    width: auto;
                 }
                 button{
                     border: solid 1px #FB54C2;
@@ -43,11 +50,16 @@ body{
             }
         }
         .main-title{
+            font-family: 'Poppins', sans-serif;
             padding: 10%;
             display: flex;
             flex-direction: column;
             align-items: center;
+            h1{
+                font-weight: 700;
+            }
             p{
+                font-family: 'Open Sans', sans-serif;
                 width: 50%;
             }
             
@@ -55,25 +67,38 @@ body{
         .sub-section{
             width: 100%;
             img{
-                width: 60%;
+                width: 50%;
             }
         }
         .stats{
             width: 80%;
+            margin: 20px;
             display: flex;
             justify-content: space-around;
+            h2{
+                font-size: 6vw;
+                margin: 0;
+            }
         }
         .info{
             display: flex;
             align-items: center;
+
             .info-img{
                 img{
-                    width: 80%;
+                    width: 90%;
                 }
+                padding: 5%;
+
             }
             .text{
                 text-align: left;
-                padding: 5%;
+                padding: 10%;
+                h2{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 200%;
+                    font-weight: 700;
+                }
             }
         }
         .users, .grow{
@@ -92,6 +117,7 @@ body{
 
         .footer{
             display: flex;
+            align-items: center;
             background-color: #01262F;
             color:#FEFEFE;
             width: 100%;
@@ -100,9 +126,10 @@ body{
                 flex-direction: column;
                 align-items: flex-start;
                 width: 50%;
-                padding-left: 5%;
-                h4{
-                    font-size: 2.5vw;
+                padding-left: 5vw;
+                img{
+                    width: auto;
+                    fill: white;
                 }
                 p{
                     text-align: left;
@@ -115,6 +142,10 @@ body{
                 justify-content: center;
                 padding-left: 20%;
                 text-align: left;
+
+                h4{
+                    margin: 10px 0 0 0;
+                }
 
                 p{
                     width: 70%;
