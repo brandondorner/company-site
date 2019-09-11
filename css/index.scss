@@ -22,6 +22,10 @@ body{
     @media #{$mobile}{
     }
 
+    p{
+        line-height: 1.7rem;
+    }
+
     .container{
         img{
             width: 100vw;
@@ -79,6 +83,10 @@ body{
             p{
                 font-family: 'Open Sans', sans-serif;
                 width: 50%;
+                @media #{$mobile}{
+                    width: 70%;
+                    padding-bottom: 20px;
+                }
             }
             
         }
@@ -86,6 +94,10 @@ body{
             width: 100%;
             img{
                 width: 50%;
+                @media #{$mobile}{
+                    padding-top: 20px;
+                    width: 80%;
+                }
             }
         }
         .stats{
@@ -99,6 +111,10 @@ body{
             h2{
                 font-size: 6vw;
                 margin: 0;
+                @media #{$mobile}{
+                    font-size: 9vh;
+                    padding-top: 20vh;
+                }
             }
         }
         .info{
@@ -157,6 +173,7 @@ body{
             background-color: #01262F;
             color:#FEFEFE;
             width: 100%;
+            padding: 5% 0;
             @media #{$mobile}{
                 flex-direction: column;
                 align-items: flex-start;
@@ -169,6 +186,7 @@ body{
                 padding-left: 5vw;
                 @media #{$mobile}{
                     padding-left: 20px;
+                    width: 80%;
                 }
                 img{
                     width: auto;
@@ -178,7 +196,7 @@ body{
                     text-align: left;
                     width: 50%;
                     @media #{$mobile}{
-                        width: 150%;;
+                        width: 100%;;
                     }
                 }
             }
@@ -192,12 +210,12 @@ body{
                     padding-left: 20px;
                 }
 
-                h4{
+                h3{
                     margin: 10px 0 0 0;
                 }
 
                 p{
-                    width: 70%;
+                    width: 90%;
                     text-align: left;
                 }
             }
